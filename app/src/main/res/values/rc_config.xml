@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <!--PictureSelectorActivity 选择媒体资源时，是否包含视频文件 -->
+    <bool name="rc_media_selector_contain_video">true</bool>
+    <!-- 设置已读回执，目前仅支持单聊、群聊、讨论组 -->
+    <bool name="rc_read_receipt">true</bool>
+
+</resources>

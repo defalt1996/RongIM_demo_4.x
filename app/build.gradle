@@ -5,7 +5,7 @@ android {
     buildToolsVersion "30.0.1"
 
     defaultConfig {
-        applicationId "com.example.rongcloud_android_imdemo_import"
+        applicationId "com.example.imdemo_import"
         minSdkVersion 19
         targetSdkVersion 30
         versionCode 1
@@ -29,6 +29,14 @@ dependencies {
     testImplementation 'junit:junit:4.12'
     androidTestImplementation 'androidx.test.ext:junit:1.1.1'
     androidTestImplementation 'androidx.test.espresso:espresso-core:3.2.0'
-    api 'cn.rongcloud.sdk:im_lib:4.0.2' // 即时通讯基础能力库
-    api 'cn.rongcloud.sdk:im_kit:4.0.2' // 即时通讯 UI 基础组件
+//    api 'cn.rongcloud.sdk:im_lib:4.0.3.9' // 即时通讯基础能力库
+//    api 'cn.rongcloud.sdk:im_kit:4.0.3.9' // 即时通讯 UI 基础组件
+//    api 'cn.rongcloud.sdk:im_lib:4.0.3.10' // 即时通讯基础能力库
+//    api 'cn.rongcloud.sdk:im_kit:4.0.3.10' // 即时通讯 UI 基础组件
+//    api 'cn.rongcloud.sdk:im_lib:2.10.4' // 即时通讯基础能力库
+//    api 'cn.rongcloud.sdk:im_kit:2.10.4' // 即时通讯 UI 基础组件
+    api 'cn.rongcloud.sdk:im_lib:4.0.1.1' // 即时通讯基础能力库
+    api 'cn.rongcloud.sdk:im_kit:4.0.1.1' // 即时通讯 UI 基础组件
+
+
 }

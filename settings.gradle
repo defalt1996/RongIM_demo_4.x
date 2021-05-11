@@ -1,2 +1,3 @@
+include ':RCSticker'
 include ':app'
 rootProject.name = "rongcloud-android-imdemo-import"
