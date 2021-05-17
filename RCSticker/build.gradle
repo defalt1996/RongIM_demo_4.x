@@ -30,7 +30,7 @@ android {
 dependencies {
     api fileTree(dir: 'libs', include: ['*.jar'])
     api 'com.android.support:appcompat-v7:27.1.1'
-    api 'cn.rongcloud.sdk:im_kit:4.0.3.10'
+    api 'cn.rongcloud.sdk:im_kit:4.1.1'
     implementation 'androidx.viewpager:viewpager:1.0.0'
 }
 

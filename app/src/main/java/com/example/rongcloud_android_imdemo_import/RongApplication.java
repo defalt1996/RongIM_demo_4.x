@@ -22,8 +22,8 @@ public class RongApplication extends Application {
         super.onCreate();
 
         // 初始化. 建议在 Application 中进行初始化.
-//        String appKey = "pkfcgjstp8g28";
         String appKey = "p5tvi9dspq3y4";
+//        String appKey = "pkfcgjstp8g28";
 //        String appKey = "pkfcgjstp5e58";
 
 
@@ -121,6 +121,7 @@ public class RongApplication extends Application {
 
             @Override
             public boolean onSent(Message message, RongIM.SentMessageErrorCode sentMessageErrorCode) {
+
                 Log.d(TAG, "onSent: ");
                 return false;
             }

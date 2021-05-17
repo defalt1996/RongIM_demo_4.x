@@ -1,3 +1,5 @@
+include ':thirdparty'
+include ':IMKit_Source'
 include ':RCSticker'
 include ':app'
 rootProject.name = "rongcloud-android-imdemo-import"
