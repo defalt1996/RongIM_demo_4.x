@@ -107,7 +107,7 @@ public class MyMessageListAdapter extends MessageListAdapter {
         mInflater = LayoutInflater.from(mContext);
         try {
             if (RongContext.getInstance() != null) {
-                readReceiptRequestInterval = RongContext.getInstance().getResources().getInteger(R.integer.rc_read_receipt_request_interval);
+                readReceiptRequestInterval = context.getResources().getInteger(R.integer.rc_read_receipt_request_interval);
             } else {
                 RLog.e(TAG, "SDK isn't init, use default readReceiptRequestInterval. Please refer to http://support.rongcloud.cn/kb/Mjc2 about how to init.");
             }
@@ -379,7 +379,7 @@ public class MyMessageListAdapter extends MessageListAdapter {
                             return true;
                         }
                     }
-                    if (RongContext.getInstance().getResources().getBoolean(R.bool.rc_enable_mentioned_message)
+                    if (mContext.getResources().getBoolean(R.bool.rc_enable_mentioned_message)
                             && (data.getConversationType().equals(Conversation.ConversationType.GROUP)
                             || data.getConversationType().equals(Conversation.ConversationType.DISCUSSION))) {
                         RongMentionManager.getInstance().mentionMember(data.getConversationType(), data.getTargetId(), data.getSenderUserId());
